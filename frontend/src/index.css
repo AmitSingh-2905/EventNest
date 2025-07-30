@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --color-blue-900: #0a143e;
+  --color-blue-800: #0d194e;
+  --color-blue-700: #1b2c70;
+  --color-blue-500: #1653aa;
+
+  --color-neonblue-100: #80f9ff;
+  --color-neonblue-500: #00f3ff;
+
+  --color-neongreen: #06E19E;
+
+  --color-neonyellow: #fffd5b;
+
+  --color-neonred: #ff8080;
+
+  --color-neonorange: #ff5d35;
+}
+
+@layer utilities {
+  .placeholder-style::placeholder {
+    letter-spacing: var(--tracking-wide);
+  }
+}
+
+body {
+  background: #0a143e;
+}
